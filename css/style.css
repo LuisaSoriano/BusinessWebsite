@@ -1,0 +1,112 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+}
+
+body {
+    font-family:"Raleway", sans-serif;
+}
+
+/* Header */
+header {
+    height: 100vh;
+    overflow:hidden;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.main-video{
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100%;
+    z-index: -100;
+}
+
+h1{
+    margin:16px;
+    letter-spacing:4px;
+    font-size:70px;
+    font-weight: 900;
+}
+
+.btn{
+    background: #23b5b5;
+    color:white;
+    padding:18px;
+    min-width:200px;
+
+    font-size: 25px;
+    text-align: center;
+    font-weight:500;
+    text-decoration: none;
+    margin-top:16px;
+    border: 1px solid #ffffff;
+}
+
+i {
+    margin: 0 8px;
+}
+
+/* Navbar */
+
+.logo{
+    height:100px;
+}
+
+.logo img {
+    height:100%;
+}
+
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    max-width: 70%;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:200;
+    margin:0 auto;
+    transition: all .4s;
+}
+
+
+nav.scrolled {
+    background: white;
+    height: 100px;
+    box-shadow: 0 4px 10px -1px rgba(0,0,0,0.75);
+
+}
+
+nav.scrolled .desktop-nav li a {
+    color: black;
+}
+
+.desktop-nav{
+    display: flex;
+    margin: 0 40px;
+}
+
+.desktop-nav li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+.desktop-nav li a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.desktop-nav li a:hover {
+    text-decoration: underline;
+}
+
