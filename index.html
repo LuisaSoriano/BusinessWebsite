@@ -108,8 +108,9 @@
     <div class="wrapper">
         <section class="OurTeam">
             <h2>Our Team</h2>
-            <div class="glidder-contain">
+            <div class="glider-contain">
                 <div class="glider">
+
                     <div class="ourTeam">
                         <img src="img/SweetPotatoLogo-min.png" alt="ourTeam">
                         <h3>Mike Lee</h3>
@@ -133,12 +134,12 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum repellat exercitationem. Iusto quas assumenda laborum sapiente numquam maiores officiis facere? Corporis praesentium consectetur, placeat quisquam veniam tempore nostrum ullam vitae saepe exercitationem ab ut velit, consequatur magnam quibusdam architecto veritatis fugit laudantium rem. Tenetur minima eius voluptatibus ad reiciendis!
                         </p>
                     </div>
-                    
+
                 </div>
                 
                 <div id="dots"></div>
                 <button class="glider-prev"><i class="fas fa-chevron-circle-left"></i></button>
-                <button id="glider-next"><i class="fas fa-chevron-circle-right"></i></button>
+                <button class="glider-next"><i class="fas fa-chevron-circle-right"></i></button>
                 
             </div>
         </section>
@@ -147,19 +148,18 @@
     <!-- Our Team section ends-->
 
     <script src="js/main.js"></script>
-
     <script src="js/glider.min.js"></script>
 
     <script>
-        new Glider(document.querySelector('.glider'), 
+        new Glider(document.querySelector(".glider"), 
         {
             slidesToShow: 1, 
             dots: "#dots", 
             arrows: { 
-                prev: '#glider-prev',
-                next: '#glider-next'
+                prev: '.glider-prev',
+                next: '.glider-next'
             }
-        });
+        })
     </script>
 </body>
 
