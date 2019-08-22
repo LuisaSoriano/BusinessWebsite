@@ -128,20 +128,23 @@ nav.scrolled .desktop-nav li a {
 /* Sections */
 
 section {
-    padding: 16px;
+    padding:30px;
     display: flex;
 }
 
+section .thumbnail {
+    height: 300px;
+}
+
 section .thumbnail img{
-    height:320px;
-    padding: 15%;
+    height: 100%;
+    padding: 10%;
 }
 
 h2 {
     margin:8px 0;
-    background: #23b5b5;
-    width:200px;
-    padding: 8px;
+    width: 200px;
+    font-size-adjust: initial;
 }
 
 /* Work Section */
