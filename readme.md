@@ -9,7 +9,7 @@ My background is on game development. I have designed and developed applied, ser
 My main interest is on XR technologies. At the moment I only have experience developing VR games.
 
 ## Programming Languages
-The programming languages I know at the moment are: C#, GML, Java and Python.
+The programming languages I know at the moment are: C#, Java and Python.
 
 The programming languages I am currently learning are: CSS, C and JavaScript.
 
