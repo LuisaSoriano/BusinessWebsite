@@ -132,10 +132,6 @@ section {
     display: flex;
 }
 
-.about .description {
-    max-width: 600px;
-}
-
 section .thumbnail {
     height: 300px;
 }
@@ -148,7 +144,6 @@ section .thumbnail img{
 h2 {
     margin:8px 0;
     width: 200px;
-    font-size-adjust: initial;
 }
 
 /* Work Section */
@@ -355,7 +350,7 @@ footer .fa-github:hover {
     }
 
     .about .thumbnail {
-        height:200px;
+        height: 200px;
     }
 
     .about .thumbnail img{
