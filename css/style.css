@@ -132,6 +132,10 @@ section {
     display: flex;
 }
 
+.about .description {
+    max-width: 600px;
+}
+
 section .thumbnail {
     height: 300px;
 }
