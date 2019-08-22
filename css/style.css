@@ -245,12 +245,12 @@ footer{
     color:white;
     text-align: center;
     padding:16px;
-    font-size: 20px;
 }
 
 footer p {
-    font-size: 24px;
+    font-size: 18px;
 }
+
 .social-icons {
     margin:16px;
     font-size:50px;
