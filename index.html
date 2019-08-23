@@ -14,7 +14,7 @@
 
 <body>
 
-    <nav class="scrolled">
+    <nav>
         <div class="logo">
             <a href="#">
                 <img src="img/SweetPotatoLogo-min.png" alt="Logo">
@@ -22,26 +22,41 @@
         </div>
 
         <ul class="desktop-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#our-team">Our Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <ul class="mobile-nav">
+            <li><a href="#about"><i class="fas fa-info-circle"></i>About</a></li>
+            <li><a href="#work"><i class="fas fa-briefcase"></i>Work</a></li>
+            <li><a href="#our-team"><i class="fas fa-comments"></i>Our Team</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
         </ul>
     </nav>
 
     <header>
         <video class="main-video" poster="img/poster.png" loop autoplay muted>
-            <source src="videos/Bullet Bounty.mp4 s">
+            <source src="videos/Bullet Bounty.mp4">
         </video>
         <h1>You imagine, We develop!</h1>
-        <a href="#" class="btn">Contact <i class="fas fa-chevron-down"></i></a>
+        <a href="#contact" class="btn">Contact <i class="fas fa-chevron-down"></i></a>
     </header>
 
-    <!-- Header End-->
-
+    <!-- Header Ends -->
+    <div id="about"></div>
 
     <div class="wrapper">
-        <section class="about">
+        <section class="about" >
             <div class="description">
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias totam minus placeat.
@@ -59,6 +74,7 @@
     </div>
 
     <!-- About Section Ends -->
+    <div id="work"></div>
 
     <section class="work">
         <div class="wrapper">
@@ -105,6 +121,7 @@
 
     <!-- Work section ends -->
 
+    <div id="our-team"></div>
     <div class="wrapper">
         <section class="OurTeam">
             <h2>Our Team</h2>
@@ -146,6 +163,35 @@
     </div>
 
     <!-- Our Team section ends-->
+
+    <div id="contact"></div>
+    <div class="wrapper">
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form method="POST" action="http://formspree.io/97luliz@gmail.com">
+                <input type="text" placeholder="Name">
+                <input type="email" name="_replyto" placeholder="Email">
+                <textarea name="body"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+    <!-- Contact Form section ends -->
+
+
+    <footer>
+        <div class="social">
+            <h3>Follow Me On</h3>
+            <div class="social-icons">
+                <a href="https://github.com/LuisaSoriano"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/potatozrockstudios/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <p>This website is developed by Luisa Soriano</p>
+    </footer>
+
+    <!-- Footer section ends-->
+
 
     <script src="js/main.js"></script>
     <script src="js/glider.min.js"></script>
