@@ -2,6 +2,7 @@
 This website is being built with the purpose of helping me learn HTML, CSS and a little bit of JavaScript.
 
 This is the first website I build and I am putting it up on GitHub as part of my portfolio.
+https://luisasoriano.github.io/SweetPotatoStudios/
 
 ## My background
 My background is on game development. I have designed and developed applied, serious and entertainment games.
